@@ -1,0 +1,28 @@
+.product-name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse;
+  background-color: #f6f6f6;
+}
+
+td {
+  padding: 20px 120px;
+  border-radius: 20px;
+  padding-left: 40px;
+}
+
+th {
+  padding: 12px;
+  padding-left: 20px;
+  padding-top: 22px;
+  font-weight: bolder;
+  font-size: small;
+}
