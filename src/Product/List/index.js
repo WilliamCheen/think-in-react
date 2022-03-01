@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import Game from "../../SquareBoard"
 
 const PRODUCTS = [
   {
@@ -117,6 +118,7 @@ class FilterableProductTable extends React.Component {
         <div>
           <SearchBar />
           <ProductTable products={PRODUCTS} />
+          <Game />
         </div>
       </div>
     );

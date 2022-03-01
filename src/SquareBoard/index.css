@@ -1,0 +1,59 @@
+
+.square {
+  width: 80px;
+  height: 80px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.status {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.board-row {
+  display: flex;
+}
+
+.game-title {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.game-main {
+  display: flex;
+  gap: 20px;
+}
+
+.next-desc {
+  font-size: small;
+}
+
+.next-content {
+  font-size: large;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: antiquewhite;
+  margin-top: 4px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+ol {
+  margin-left: 0px;
+  padding-left: 20px;
+}
